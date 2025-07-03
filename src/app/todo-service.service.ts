@@ -23,4 +23,8 @@ export class TodoServiceService {
     return this.http.get(`http://localhost:3000/tasks/${id}`);
   }
 
+  add(x:number, y:number): number {
+    return x + y;
+  }
+
 }
